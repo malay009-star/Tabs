@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="img/paypaal.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tabs</title>
+</head>
+
+<body>
+    <!--componies Features -->
+    <section class="grid lg:grid-cols-2 md:grid-cols-1" id="componies_feature">
+        <!-- You do the Bussiness -->
+        <div class="same_heading" id="busines_method">
+            <h1 id="heading">You do the business, we’ll handle the money.</h1>
+            <p class="para">With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.</p>
+            <button id="btn">Get Started</button>
+        </div>
+        <!-- Tabs -->
+        <div class="tab-container">
+            <div class="flex flex wrap items-center" id="all_tabs">
+                <button id="btn_one" data-tab="tab1">Rewards</button>
+                <button id="btn_two" data-tab="tab2">Secured</button>
+                <button id="btn_three" data-tab="tab3">Balance</button>
+            </div>
+            <!-- and Tabs content -->
+            <div class="tab-content mt-8" id="content_one">
+                <img class="" src="Assets/img/Star.svg" alt="">
+                <div class="mt-5">
+                    <h1>Rewards</h1>
+                    <p class="para mt-0">The best credit cards offer some tantalizing combinations of promotions and prizes. With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards
+                        on the market.
+                    </p>
+                </div>
+            </div>
+            <div class="tab-content mt-8" id="content_two">
+                <img class="" src="Assets//img/Shield.svg" alt="">
+                <div class="mt-5">
+                    <h1>100% Secured</h1>
+                    <p class="para mt-0">We take proactive steps make sure your information and transactions are secure. With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards
+                        on the market.</p>
+                </div>
+            </div>
+            <div class="tab-content mt-8" id="content_three"><img class="" src="Assets/img/Send.svg" alt="">
+                <div class="mt-5">
+                    <h1>Balance Transfer</h1>
+                    <p class="para mt-0">A balance transfer credit card can save you a lot of money in interest charges. With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards
+                        on the market.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="Assets/JS/main.js"></script>
+</body>
+
+</html>
