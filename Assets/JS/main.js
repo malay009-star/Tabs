@@ -21,11 +21,11 @@ btn_two.addEventListener('click', () => {
     content_two.style.display = 'block';
     content_one.style.display = 'none';
     content_three.style.display = 'none';
-    heading.textContent = 'We take proactive steps make inform.'
+    heading.textContent = 'We take proactive steps make inform.';
 })
 btn_three.addEventListener('click', () => {
     content_three.style.display = 'block';
     content_one.style.display = 'none';
     content_two.style.display = 'none';
-
+    heading.textContent = 'We take proactive steps make sure ';
 })
