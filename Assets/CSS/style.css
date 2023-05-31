@@ -142,7 +142,7 @@ body {
 
 @media (max-width: 1023px) {
   .tab-container {
-    background-color: red;
+    /* background-color: red; */
     margin-left: 0rem;
     margin-top: 5rem;
   }
@@ -156,7 +156,8 @@ body {
     font-size: 2.3rem;
   }
   .same_heading p {
-    width: 450px;
+    width: 100%;
+    /* background-color: red; */
     height: 140px;
     font-size: 16px;
   }
@@ -164,7 +165,7 @@ body {
     margin-top: 0rem;
   }
   .tab-container {
-    width: 431px;
+    width: 100%;
     margin: 4rem 0rem;
   }
   .tab-container #all_tabs button {
@@ -175,12 +176,24 @@ body {
   }
 }
 
-@media (max-width: 368px) {
+@media (max-width: 470px) {
+  .tab-container {
+    height: 100%;
+    width: 100%;
+  }
+  .tab-container #all_tabs button {
+    font-size: 15px;
+    padding: 1.13rem 1rem;
+  }
+}
+
+@media (max-width: 400px) {
   .same_heading h1 {
+    /* background-color: red; */
     font-size: 1.8rem;
   }
   .same_heading p {
-    width: 340px;
+    width: 100%;
     height: 150px;
     font-size: 16px;
   }
@@ -189,10 +202,9 @@ body {
   }
   .tab-container {
     height: 100%;
-    width: 330px;
+    width: 100%;
   }
   .tab-container #all_tabs button {
-    font-size: 16px;
     padding: 1.13rem 1.3rem;
   }
   .tab-container .tab-content {
@@ -210,5 +222,3 @@ body {
     line-height: 25px;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
